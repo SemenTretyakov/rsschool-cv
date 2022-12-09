@@ -51,4 +51,3 @@ Worked as a freelance web designer for more than 1.5 years
 * Russian
 * English
 
-
