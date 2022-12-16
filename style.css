@@ -29,6 +29,11 @@ body {
     font-weight: 400;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 pre, code {
     margin: 0;
     padding: 0;
