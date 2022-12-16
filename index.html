@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semen Tretyakov CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="menu">
+                <a href="#" class="menu__logo"></a>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">
+                            About Me
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__link">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#education" class="menu__link">
+                            Education
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#experience" class="menu__link">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#code" class="menu__link">
+                            Code
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contacts" class="menu__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="button">
+                    Work with me
+                </a>
+            </nav>
+            <div class="offer" id="offer">
+                <h1 class="offer__title">
+                    Hey, i’m Semen !
+                    I design and develop websites.
+                </h1>
+                <a href="#" class="btn">
+                    Read more
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                    <h2 class="section-title">About
+                        <span class="orange-text">me</span>
+                    </h2>
+                <div class="about__texts">
+                    <p class="about__text about__text1">
+                        I’m a web designer UI|Ux developer. At the moment I really want to become a Frontend developer. I am constantly learning and improving my skills in the profession.
+                    </p>
+                    <p class="about__text about__text2">
+                        He took professional courses of the Way-up company and in the process of studying at the wonderful RS School company
+                        I love my job and therefore I treat it with full responsibility and seriousness.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">My
+                    <span class="orange-text">skills</span>
+                </h2>
+                <div class="skills__technologies">
+                    <ul class="skills__line skills__line1">
+                        <li class="skills__text">
+                            HTML
+                        </li>
+                        <li class="skills__text">
+                            CSS/SASS
+                        </li>
+                        <li class="skills__text">
+                            Figma (for web development)
+                        </li>
+                    </ul>
+                    <ul class="skills__line skills__line2">
+                        <li class="skills__text">
+                            JavaScript (Basic)
+                        </li>
+                        <li class="skills__text">
+                            Git
+                        </li>
+                        <li class="skills__text">
+                            Editors: Sublime, VSCode
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">
+                    Read more
+                </a>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container container_flex">
+                <div class="info-block">
+                    <h2 class="section-title">Education
+                        <span class="orange-text">me</span>
+                    </h2>
+                    <ul class="list">
+                        <li class="list__item">
+                            Tyumen Industrial Institute
+                        </li>
+                        <li class="list__item">
+                            Сurses on UI Ux design
+                        </li>
+                        <li class="list__item">
+                            RS School JS/FE Pre-School 2022Q4
+                        </li>
+                    </ul>
+                </div>
+                <img src="assets/images/font-pana.svg" alt="design-picture" class="app-screen">
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience
+                    <span class="orange-text">not all of them</span>
+                </h2>
+                <div class="experience__block">
+                    <p class="experience__text experience__text1">
+                        He worked as a freelance web designer for more than a year and a half, during which time he managed to make about a dozen major projects. 
+                    </p>
+                    <p class="experience__text experience__text2">
+                        From landing pages to large sites with a thoughtful UI and Ux. I also speak several months making up simple landing pages.
+                    </p>
+                </div>
+                <a href="#" class="btn">
+                    Read more
+                </a>
+            </div>
+        </section>
+        <section class="code" id="code">
+            <div class="container container_flex">
+                <div class="code-block">
+                    <h2 class="section-title">Code
+                        <span class="orange-text">examples</span>
+                    </h2>
+                    <pre><code class="lang-js">
+                        const bracketSequence = function(str) {<br>
+                        let count = 0;<br>
+                        for (let i = 0; i = str.length; i += 1) {<br>
+                            if (str[i] === '(') {<br>
+                                count = count + 1;<br>
+                            } else if (str[i] === ')') {<br>
+                                count = count - 1; }<br>
+                        }<br>
+                        if (count === 0) {<br>
+                            alert('The balance of brackets is observed');<br>
+                        } else if (count === -1) {<br>
+                            alert('Found an "uncompensated" closing bracket');<br>
+                        } else if (count > 0) {<br>
+                            alert('The balance of brackets is not observed'); }<br>
+                        }
+                    </code></pre>
+                </div>
+                <img src="assets/images/Programming-amico.svg" alt="programming-picture" class="app-screen">
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="section-title">Contact
+                    <span class="orange-text">write at any time </span><br>
+                    convenient for you
+                </h2>
+                <ul class="list">
+                    <li class="list__item">
+                        Location: Tyumen, Russia
+                    </li>
+                    <li class="list__item">
+                        E-mail: tretakovs295@gmail.com
+                    </li>
+                    <li class="list__item">
+                        Telegram: @sementretyakov_UI_UX
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="info">
+                <div class="social">
+                    <a href="https://github.com/SemenTretyakov" class="social__gh"></a>
+                    <a href="https://rs.school/js/" class="social__rs"></a>
+                </div>
+                <div class="texts">
+                    <p class="footer__text">
+                        @Semen
+                    </p>
+                    <p class="footer__text">
+                        2022
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>
