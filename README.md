@@ -1,3 +1,3 @@
 # rsschool-cv
-https://GITHUB-USERNAME.SemenTretyakov.io/rsschool-cv/cv
-https://GITHUB-USERNAME.SemenTretyakov.io/rsschool-cv/cv
+https://SemenTretyakov.github.io/rsschool-cv/cv
+
