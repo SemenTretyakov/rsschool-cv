@@ -1,6 +1,13 @@
 # **Semen** Tretyakov 
 ### Junior front-end developer
 
+## **Contact Information:**
+***
+* Phone: +7 (923) 721 40-06
+* E-mail: tretakovs295@gmail.com
+* Telegram: @sementretyakov_UI_UX
+* Tyumen Industrial Institute
+
 ## **About me**
 ***
 Hi! My name is Semen, I am a great team worker and I really want to learn and develop new skills. I have such qualities as self-discipline and responsibility, I like to travel and play basketball!
@@ -48,9 +55,6 @@ const bracketSequence = function(str) {
 ***
 Worked as a freelance web designer for more than 1.5 years
 
-## **Contact Information:**
+## **English language level**
 ***
-* Phone: +7 (923) 721 40-06
-* E-mail: tretakovs295@gmail.com
-* Telegram: @sementretyakov_UI_UX
-* Tyumen Industrial Institute
+A2 Pre-intermidiate
